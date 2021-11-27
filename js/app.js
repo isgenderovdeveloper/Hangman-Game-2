@@ -86,6 +86,7 @@ function StartGame() {
         bottomLineArray.push("_");
     }
     guessParagraph.innerHTML = `${bottomLineArray.join(" ")}`;
+    console.log(guessParagraph);
 }
 StartGame()
 
