@@ -152,7 +152,7 @@ function mySupposition(e) {
     wrongGuessParagraph.innerHTML = ` ${wrongGuesses}`
     winParagraph.innerHTML = `${winCounter}`
     guessCountParagraph.innerHTML = `${guessCounter}`
-        // console.log(bottomLineLetter)
+    console.log(bottomLineLetter)
 }
 
 
